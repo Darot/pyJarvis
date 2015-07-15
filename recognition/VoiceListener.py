@@ -44,3 +44,7 @@ except LookupError:
                      " nicht verstanden!")
 
 voice.say(text)
+
+voice.say("Daniel ist einfach der ultimatice BABO und "
+          "ich bin auch ober cool und ich gehe danach"
+          " auch schlafen")
