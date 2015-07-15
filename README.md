@@ -22,8 +22,25 @@ After rebooting, run pulseaudio --kill, followed by jack_control start, to fix t
 
 Short description(follow these commands):
 
-sudo apt-get install flac
+    Install build dependencies (on linux):
 
+    sudo apt-get build-dep python-pygame
+
+    Install mercurial to use hg (on linux):
+
+    sudo apt-get install mercurial
+
+    Use pip to install PyGame:
+
+    pip install hg+http://bitbucket.org/pygame/pygame
+
+    If the above gives freetype-config: not found error (on Linux), then try sudo apt-get install libfreetype6-dev and then repeat 3.
+
+
+sudo apt-get install python python3
+sudo apt-get install python-pip python3-pip
+sudo apt-get install flac
+sudo pip install pyttsx
 sudo apt-get install multimedia-jack
 sudo dpkg-reconfigure -p high jackd2 and select “Yes”
 sudo adduser $(whoami) audio
