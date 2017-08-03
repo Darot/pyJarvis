@@ -5,7 +5,7 @@ from voice.JarviceVoice import JarviceVoice
 class DefaultRecognizer:
 
     def __init__(self):
-        self.r = sr.Recognizer(language = "de-DE")
+        self.r = sr.Recognizer()
         self.r.dynamic_energy_threshold = True
         self.voice = JarviceVoice("de");
 
@@ -13,11 +13,10 @@ class DefaultRecognizer:
         with sr.Microphone() as source:
             audio = self.r.listen(source)
         try:
-            text = self.r.recognize(audio).lower()
-            if(text == "leck mich am arsch"):
-                self.voice.say("Alles Klar! Hose runter!")
-        except LookupError:
-            self.voice.say("Entschuldige! Das habe ich"
-                     " nicht verstanden!")
+            text = self.r.recognize_google(audio, language="de").lower()
+            print(text)
+            self.listen()
+        except sr.UnknownValueError:
+            print("Didn't notice anything")
             self.listen()
 
