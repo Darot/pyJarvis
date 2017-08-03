@@ -40,7 +40,14 @@ Short description(follow these commands):
 sudo apt-get install python python3
 sudo apt-get install python-pip python3-pip
 sudo apt-get install flac
+
 sudo pip install pyttsx
+sudo pip install sounddevice
+sudo pip install flask
+sudo pip install flask
+sudo pip install Flask-OAuth
+sudo pip install Flask-OAuthlib
+
 sudo apt-get install multimedia-jack
 sudo dpkg-reconfigure -p high jackd2 and select “Yes”
 sudo adduser $(whoami) audio
@@ -55,3 +62,4 @@ Python Requirements(pip install:
 For troubleshooting see.
 
 https://pypi.python.org/pypi/SpeechRecognition/
+
