@@ -5,7 +5,7 @@ from recognition.DefaultRecognizer import DefaultRecognizer
 voice = JarviceVoice("de");
 recognizer = DefaultRecognizer();
 
-voice.say("Guten Tag ich bin Jarvis und hoere von jetzt an auf deine Befehle!")
+voice.say("GO!")
 
 recognizer.listen();
 
