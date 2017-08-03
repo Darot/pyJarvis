@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1060cc6-f1f8-4498-9937-3239f29d6a18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/httpClient/CommandInterface.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/httpClient/TokenService.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/httpClient/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/httpClient/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recognition/test.mp3" afterPath="$PROJECT_DIR$/recognition/test.mp3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recognition/VoiceListener.py" afterPath="$PROJECT_DIR$/recognition/VoiceListener.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpClient/TokenService.py" afterPath="$PROJECT_DIR$/httpClient/TokenService.py" />
     </list>
     <ignored path="speechControll.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +17,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/speechControll$JarviceVoice.coverage" NAME="JarviceVoice Coverage Results" MODIFIED="1436989299128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/voice" />
-    <SUITE FILE_PATH="coverage/speechControll$test.coverage" NAME="test Coverage Results" MODIFIED="1501796094135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpClient" />
+    <SUITE FILE_PATH="coverage/speechControll$test.coverage" NAME="test Coverage Results" MODIFIED="1501796673681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpClient" />
     <SUITE FILE_PATH="coverage/speechControll$VoiceListener.coverage" NAME="VoiceListener Coverage Results" MODIFIED="1436988302357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/voice" />
     <SUITE FILE_PATH="coverage/speechControll$VoiceListener__1_.coverage" NAME="VoiceListener (1) Coverage Results" MODIFIED="1501791799045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recognition" />
     <SUITE FILE_PATH="coverage/speechControll$TokenService.coverage" NAME="TokenService Coverage Results" MODIFIED="1501796124847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpClient" />
@@ -62,8 +56,8 @@
       <file leaf-file-name="TokenService.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/httpClient/TokenService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25502318">
-              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.32457495">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -243,7 +237,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file:///Users/daniel/Documents/workspace/pyJarvis/httpClient/test.py" />
   </component>
-  <component name="RunManager" selected="Python.TokenService">
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="VoiceListener" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -537,8 +531,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.TokenService" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TokenService" />
         <item index="2" class="java.lang.String" itemvalue="Python.VoiceListener (1)" />
         <item index="3" class="java.lang.String" itemvalue="Python.JarviceVoice" />
         <item index="4" class="java.lang.String" itemvalue="Python.VoiceListener" />
@@ -998,8 +992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/httpClient/TokenService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25502318">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.32457495">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
